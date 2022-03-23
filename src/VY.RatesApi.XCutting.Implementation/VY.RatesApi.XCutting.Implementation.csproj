@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Services\51r5tfuo.uoi~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VY.RatesApi.Business.Contracts\VY.RatesApi.Business.Contracts.csproj" />
+    <ProjectReference Include="..\VY.RatesApi.XCutting.Contracts\VY.RatesApi.XCutting.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

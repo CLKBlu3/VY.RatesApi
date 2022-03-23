@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. WebApi", "01. WebApi", "{4872C3B3-3C99-4FA7-83E2-1F3E9FE2C0D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Business", "02. Business", "{DF26F118-B4A7-452C-95FA-35A8AFABBE6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Infrastructure", "03. Infrastructure", "{6A82E556-3472-438C-8873-C5D5C4956DF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. XCutting", "04. XCutting", "{EA1AD855-5D46-480A-B827-780C0C4D9451}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Dtos", "05. Dtos", "{B0AA733C-A6F6-4C8F-831A-70A2071EC7F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.WebApi", "src\VY.RatesApi.WebApi\VY.RatesApi.WebApi.csproj", "{49B1467D-445E-407A-A7CC-8E815B522634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.Business.Contracts", "src\VY.RatesApi.Business.Contracts\VY.RatesApi.Business.Contracts.csproj", "{1EBE87AF-9009-415B-9B5A-6160D8925FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.Business.Implementation", "src\VY.RatesApi.Business.Implementation\VY.RatesApi.Business.Implementation.csproj", "{0D1D439F-BED8-469E-933C-8D6D0F958B79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.Infrastructure.Contracts", "src\VY.RatesApi.Infrastructure.Contracts\VY.RatesApi.Infrastructure.Contracts.csproj", "{F305283B-968C-4EA8-BDDD-0DCB6BBC020C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.Infrastructure.Implementation", "src\VY.RatesApi.Infrastructure.Implementation\VY.RatesApi.Infrastructure.Implementation.csproj", "{E8FA24A7-4E19-450B-BDFC-37781BC08249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.XCutting.Domain", "src\VY.RatesApi.XCutting.Domain\VY.RatesApi.XCutting.Domain.csproj", "{BDAE5F13-BB05-44A0-A9AC-B38BD559627B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.Dtos", "src\VY.RatesApi.Dtos\VY.RatesApi.Dtos.csproj", "{F79AF654-9FE6-4F5E-8794-FB8899D45AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.XCutting.Contracts", "src\VY.RatesApi.XCutting.Contracts\VY.RatesApi.XCutting.Contracts.csproj", "{BD58A496-0282-4734-9E89-666EEB1739F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.XCutting.Implementation", "src\VY.RatesApi.XCutting.Implementation\VY.RatesApi.XCutting.Implementation.csproj", "{993647CA-0661-484B-B26E-F8EAF03D8703}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49B1467D-445E-407A-A7CC-8E815B522634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B1467D-445E-407A-A7CC-8E815B522634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B1467D-445E-407A-A7CC-8E815B522634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B1467D-445E-407A-A7CC-8E815B522634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBE87AF-9009-415B-9B5A-6160D8925FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBE87AF-9009-415B-9B5A-6160D8925FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBE87AF-9009-415B-9B5A-6160D8925FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBE87AF-9009-415B-9B5A-6160D8925FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1D439F-BED8-469E-933C-8D6D0F958B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1D439F-BED8-469E-933C-8D6D0F958B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1D439F-BED8-469E-933C-8D6D0F958B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1D439F-BED8-469E-933C-8D6D0F958B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F305283B-968C-4EA8-BDDD-0DCB6BBC020C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F305283B-968C-4EA8-BDDD-0DCB6BBC020C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F305283B-968C-4EA8-BDDD-0DCB6BBC020C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F305283B-968C-4EA8-BDDD-0DCB6BBC020C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FA24A7-4E19-450B-BDFC-37781BC08249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FA24A7-4E19-450B-BDFC-37781BC08249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FA24A7-4E19-450B-BDFC-37781BC08249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FA24A7-4E19-450B-BDFC-37781BC08249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDAE5F13-BB05-44A0-A9AC-B38BD559627B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAE5F13-BB05-44A0-A9AC-B38BD559627B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAE5F13-BB05-44A0-A9AC-B38BD559627B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAE5F13-BB05-44A0-A9AC-B38BD559627B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79AF654-9FE6-4F5E-8794-FB8899D45AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79AF654-9FE6-4F5E-8794-FB8899D45AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79AF654-9FE6-4F5E-8794-FB8899D45AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79AF654-9FE6-4F5E-8794-FB8899D45AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD58A496-0282-4734-9E89-666EEB1739F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD58A496-0282-4734-9E89-666EEB1739F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD58A496-0282-4734-9E89-666EEB1739F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD58A496-0282-4734-9E89-666EEB1739F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993647CA-0661-484B-B26E-F8EAF03D8703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993647CA-0661-484B-B26E-F8EAF03D8703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993647CA-0661-484B-B26E-F8EAF03D8703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993647CA-0661-484B-B26E-F8EAF03D8703}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49B1467D-445E-407A-A7CC-8E815B522634} = {4872C3B3-3C99-4FA7-83E2-1F3E9FE2C0D8}
+		{1EBE87AF-9009-415B-9B5A-6160D8925FBF} = {DF26F118-B4A7-452C-95FA-35A8AFABBE6A}
+		{0D1D439F-BED8-469E-933C-8D6D0F958B79} = {DF26F118-B4A7-452C-95FA-35A8AFABBE6A}
+		{F305283B-968C-4EA8-BDDD-0DCB6BBC020C} = {6A82E556-3472-438C-8873-C5D5C4956DF7}
+		{E8FA24A7-4E19-450B-BDFC-37781BC08249} = {6A82E556-3472-438C-8873-C5D5C4956DF7}
+		{BDAE5F13-BB05-44A0-A9AC-B38BD559627B} = {EA1AD855-5D46-480A-B827-780C0C4D9451}
+		{F79AF654-9FE6-4F5E-8794-FB8899D45AC7} = {B0AA733C-A6F6-4C8F-831A-70A2071EC7F9}
+		{BD58A496-0282-4734-9E89-666EEB1739F0} = {EA1AD855-5D46-480A-B827-780C0C4D9451}
+		{993647CA-0661-484B-B26E-F8EAF03D8703} = {EA1AD855-5D46-480A-B827-780C0C4D9451}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A94D548D-A32E-469C-B04A-D88A1000975F}
+	EndGlobalSection
+EndGlobal

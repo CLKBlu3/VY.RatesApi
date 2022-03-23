@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VY.RatesApi.Dtos\VY.RatesApi.Dtos.csproj" />
+    <ProjectReference Include="..\VY.RatesApi.Infrastructure.Implementation\VY.RatesApi.Infrastructure.Implementation.csproj" />
+    <ProjectReference Include="..\VY.RatesApi.XCutting.Domain\VY.RatesApi.XCutting.Domain.csproj" />
+    <ProjectReference Include="..\VY.RatesApi.XCutting.Implementation\VY.RatesApi.XCutting.Implementation.csproj" />
+  </ItemGroup>
+
+</Project>
