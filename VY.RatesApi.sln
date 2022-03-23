@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.XCutting.Contra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.XCutting.Implementation", "src\VY.RatesApi.XCutting.Implementation\VY.RatesApi.XCutting.Implementation.csproj", "{993647CA-0661-484B-B26E-F8EAF03D8703}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Tests", "06. Tests", "{A411B709-FCE7-4484-8D55-B74EFBAFDB31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VY.RatesApi.IntegrationTest", "tests\VY.RatesApi.IntegrationTest\VY.RatesApi.IntegrationTest.csproj", "{9870AF32-6761-4F2B-B4EB-474752CABF32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,10 @@ Global
 		{993647CA-0661-484B-B26E-F8EAF03D8703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{993647CA-0661-484B-B26E-F8EAF03D8703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{993647CA-0661-484B-B26E-F8EAF03D8703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9870AF32-6761-4F2B-B4EB-474752CABF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9870AF32-6761-4F2B-B4EB-474752CABF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9870AF32-6761-4F2B-B4EB-474752CABF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9870AF32-6761-4F2B-B4EB-474752CABF32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +95,7 @@ Global
 		{F79AF654-9FE6-4F5E-8794-FB8899D45AC7} = {B0AA733C-A6F6-4C8F-831A-70A2071EC7F9}
 		{BD58A496-0282-4734-9E89-666EEB1739F0} = {EA1AD855-5D46-480A-B827-780C0C4D9451}
 		{993647CA-0661-484B-B26E-F8EAF03D8703} = {EA1AD855-5D46-480A-B827-780C0C4D9451}
+		{9870AF32-6761-4F2B-B4EB-474752CABF32} = {A411B709-FCE7-4484-8D55-B74EFBAFDB31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A94D548D-A32E-469C-B04A-D88A1000975F}
