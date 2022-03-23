@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
@@ -20,7 +18,7 @@ namespace VY.RatesApi.IntegrationTest
         public CreateIntegrationTest(InMemoryDBFactory<Startup> factory)
         {
             _factory = factory;
-            _httpClient = factory.CreateClient();
+            _httpClient = _factory.CreateClient();
         }
 
         [Fact]

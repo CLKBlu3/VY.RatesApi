@@ -49,7 +49,7 @@ namespace VY.RatesApi.Business.Implementation.Services
             if (rate == null)
             {
                 rate = rates.Where(x => x.To == from && x.From == to).FirstOrDefault();
-                if (rate != null) return 1 / Double.Parse(rate.Ratio) * amount;
+                if (rate != null) return 1 / Double.Parse(rate.Ratio, System.Globalization.CultureInfo.InvariantCulture) * amount;
                 //Recursive
                 var aux = rates.Where(x => x.From == to || x.To == to && !x.IsVisited).FirstOrDefault();
                 //Throws exception if all nodes have been visited / is not possible to reach the result.
@@ -66,7 +66,7 @@ namespace VY.RatesApi.Business.Implementation.Services
                     return Convert(amount, aux.From, to, rates);
                 }
             }
-            return Double.Parse(rate.Ratio) * amount;
+            return Double.Parse(rate.Ratio, System.Globalization.CultureInfo.InvariantCulture) * amount;
         }
     }
 }
