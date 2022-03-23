@@ -14,7 +14,7 @@ namespace VY.RatesApi.Business.Implementation.Extensions
                                                              IConfiguration configuration)
         {
             services.AddInfrastructureServices(configuration);
-            services.AddXCuttingServices();
+            services.AddXCuttingServices(configuration);
 
             services.AddAutoMapper(typeof(AccounteeProfile),
                                    typeof(AccountProfile));
